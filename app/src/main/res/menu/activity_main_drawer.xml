@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/filmesPopulares"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Filmes Populares" />
+        <item
+            android:id="@+id/filmesMaisAcessados"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Filmes Mais Acessados" />
+
+    </group>
+
+
+</menu>

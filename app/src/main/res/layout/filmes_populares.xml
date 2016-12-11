@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_filme"
+        android:src="@drawable/ic_menu_camera"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_filme"
+        android:layout_alignBottom="@+id/image_filme"
+        android:layout_toEndOf="@+id/image_filme"
+        android:layout_marginStart="46dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/overview_filme"
+        android:layout_below="@+id/title_filme"
+        android:layout_alignStart="@+id/title_filme" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/popularidade_filme"
+        android:layout_below="@+id/overview_filme"
+        android:layout_alignStart="@+id/overview_filme" />
+
+</RelativeLayout>
